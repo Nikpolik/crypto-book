@@ -12,6 +12,8 @@ The data fetching and processing runs on a separate worker so that rendering per
 
 ## Running the project
 
-To run the project you must first compile the worker running `yarn run worker` and after that start the app using `yarn start`.
+1. `yarn install` dependencies
+2. `yarn run worker` compile worker that fetches the data
+2. `yarn start` run the main web application
 
 Then the project should be running on http://localhost:3000
