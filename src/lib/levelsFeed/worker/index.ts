@@ -13,7 +13,7 @@ import { ConnectionState } from "../constants";
 import { createPayload } from "./payloads";
 import { Level } from "../models";
 
-const SYNC_INTERVAL = 1000;
+const SYNC_INTERVAL = 500;
 
 // State
 let socket: Socket | null = null;
