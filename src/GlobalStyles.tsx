@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  @import url('http://fonts.cdnfonts.com/css/monaco');
-
   html, body {
     width: calc(100% - 16px);
     height: calc(100% - 16px);
